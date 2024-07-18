@@ -1,0 +1,79 @@
+.container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.mainArea {
+  
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.canvas {
+  border-radius: 20px;
+  width: 70%;
+  height: 500px;
+  border: 1px solid black;
+  position: relative;
+  background-color: white;
+}
+
+.textOptions {
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.addButton {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #1500ff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #0056b3;
+}
+
+.undoRedoControls {
+  display: flex;
+  
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.controlButton {
+  padding: 10px 20px;
+  background-color: #643885;
+  color: rgb(240, 227, 227);
+  border: none;
+  border-radius: 23%;
+  cursor: pointer;
+}
+
+.controlButton:disabled {
+  background-color: #9e2424;
+  cursor: not-allowed;
+}
+
+.instructions {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #ded2d2;
+}
